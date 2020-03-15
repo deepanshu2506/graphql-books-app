@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  // margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #eee;
 }
@@ -14,12 +14,29 @@ body {
   width: 60%;
   height: 100%;
 }
-
+.book-details {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 40%;
+  height: 100%;
+  background: #ad1457;
+  padding: 30px;
+  overflow: auto;
+  box-shadow: -2px -3px 5px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  color: #fff;
+}
 #book-list {
   padding: 0;
+  ul {
+    float: left;
+  }
   li {
     margin: 12px;
     padding: 10px;
+    display: inline-block;
+    list-style-type: none;
     border-radius: 4px;
     border: 1px solid #880e4f;
     box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
@@ -35,4 +52,32 @@ form {
   left: 0;
   bottom: 0;
   width: 400px;
+  .field {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+  label {
+    text-align: right;
+    padding: 6px;
+  }
+  select,
+  input {
+    margin: 4px;
+    padding: 6px;
+    box-sizing: border-box;
+  }
+
+  button {
+    color: white;
+    font-size: 2em;
+    background-color: #ad1457;
+    border: 0;
+    padding: 0 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
 }

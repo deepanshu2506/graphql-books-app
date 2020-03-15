@@ -1,2 +1,14 @@
 */node_modules
 */package-lock.json
+frontend/config/env.js
+frontend/config/getHttpsConfig.js
+frontend/config/modules.js
+frontend/config/paths.js
+frontend/config/pnpTs.js
+frontend/config/webpack.config.js
+frontend/config/webpackDevServer.config.js
+frontend/config/jest/cssTransform.js
+frontend/config/jest/fileTransform.js
+frontend/scripts/build.js
+frontend/scripts/start.js
+frontend/scripts/test.js

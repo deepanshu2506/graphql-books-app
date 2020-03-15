@@ -73,7 +73,7 @@ class AddBooks extends Component {
               {this.populateAuthors()}
             </select>
           </div>
-          <button>add</button>
+          <button>+</button>
         </form>
       </div>
     );
